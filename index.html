@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">iCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="bg-primary text-white text-center p-5">
+      <h1 class="display-3">Welcome to My Portfolio</h1>
+      <h4>I showcase my projects and skills here.</h4>
+    </section>
+    <section class="p-5">
+      <h2 class="text-center">About Me</h2>
+      <div class="row justify-content-around">
+        <img
+          class="col-12 col-sm-4"
+          src="https://picsum.photos/200/160"
+          alt="img"
+        />
+        <p class="col-12 col-sm-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas
+          obcaecati beatae ducimus! Ab velit facere ducimus explicabo modi alias
+          numquam deleniti dolorem tenetur delectus. Consequatur facilis facere
+          magnam at. Aspernatur fugit dolores odio consectetur ut earum itaque,
+          iure veritatis molestiae possimus impedit, nisi ipsam sed. Corporis
+          adipisci omnis fuga. Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Provident itaque ad repudiandae voluptate architecto
+          mollitia alias cupiditate pariatur officia natus placeat maxime
+          distinctio magni nobis reprehenderit quae deserunt illum, quibusdam
+          odio. Rem asperiores optio nisi modi ullam. Explicabo eaque, facilis
+          unde consequatur odio aut iste dignissimos, quam quasi cumque
+          deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto porro hic doloribus. Reiciendis odio nihil quo cum soluta
+          eveniet corrupti recusandae doloremque nulla. Sequi quam itaque natus
+          commodi sapiente unde omnis beatae architecto asperiores magnam,
+          veritatis vero nisi voluptates cupiditate repellendus eveniet expedita
+          iste consequuntur similique maxime. Delectus, quasi similique.
+        </p>
+      </div>
+    </section>
+    <section class="p-5 bg-light">
+      <h2 class="text-center">Portfolio</h2>
+      <div class="row justify-content-around mt-5">
+        <div class="card col-12 col-sm-3 mt-3 p-0">
+          <img src="https://picsum.photos/200/160" alt="project1" class="card-img-top" />
+          <div class="card_body p-2">
+            <h4>Project 1</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Temporibus vitae eum ad ducimus repellendus aut cum in veritatis
+              dolore pariatur.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-3 mt-3 p-0">
+          <img src="https://picsum.photos/200/160" alt="project2" class="card-img-top" />
+          <div class="card_body p-2">
+            <h4>Project 1</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Temporibus vitae eum ad ducimus repellendus aut cum in veritatis
+              dolore pariatur.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-3 mt-3 p-0">
+          <img src="https://picsum.photos/200/160" alt="project3" class="card-img-top" />
+          <div class="card_body p-2">
+            <h4>Project 1</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Temporibus vitae eum ad ducimus repellendus aut cum in veritatis
+              dolore pariatur.
+            </p>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row justify-content-center p-5">
+      <h2 class="text-center">Contact</h2>
+      <form action="" class="d-flex flex-column col-12 col-sm-6">
+        <label for="Name" class="form-label">Name</label>
+        <input id='Name' type="text" class="form-control">
+        <label for="Email" class="form-label mt-3">Email</label>
+        <input id="Email" type="email" class="form-control">
+        <label for="Message" class="form-label mt-3">Message</label>
+        <textarea rows="5" id="Message" class="form-control"></textarea>
+        <button class="btn btn-primary mt-3">Submit</button>
+      </form>
+
+    </section>
+    <footer class="bg-dark text-center text-white pt-3 pb-4">
+      2023 My Portfolio. All rights reserved.
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
